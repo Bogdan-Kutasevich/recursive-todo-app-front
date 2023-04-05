@@ -1,0 +1,41 @@
+.todos {
+  width: 100%;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+    padding: 3px;
+    gap: 4px;
+  }
+
+  &__main {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    flex-grow: 1;
+    border-radius: 10px;
+    &:hover {
+      background-color: rgba(80, 79, 79, 0.103);
+    }
+    &--completed {
+      background-color: rgba(25, 112, 86, 0.384);
+      &:hover {
+        background-color: rgba(25, 112, 86, 0.384);
+      }
+    }
+  }
+
+  &__title {
+    font-size: 28px;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 2px;
+  }
+
+  &__sub {
+    margin-left: 40px;
+  }
+}
