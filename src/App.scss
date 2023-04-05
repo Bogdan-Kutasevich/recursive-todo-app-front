@@ -1,0 +1,25 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(71, 71, 71, 0.438);
+
+  &__container {
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+}
+
+.no-task {
+  padding: 20px;
+  font-size: 28px;
+}

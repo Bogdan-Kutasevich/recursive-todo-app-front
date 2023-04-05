@@ -1,0 +1,19 @@
+.add-sub {
+  display: flex;
+  width: 50%;
+  margin-left: 40px;
+
+  &__form {
+    display: flex;
+    gap: 2px;
+  }
+
+  &__click {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+    &:hover {
+      background-color: rgba(240, 240, 240, 0.795);
+    }
+  }
+}
